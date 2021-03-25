@@ -1,6 +1,5 @@
 package com.dia1.Calculadora;
 
-import java.io.PrintStream;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-@RequestMapping("calc")
+@RequestMapping("calc1")
 
 public class CalculadoraApplication {
 
